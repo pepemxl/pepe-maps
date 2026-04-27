@@ -855,4 +855,72 @@ return [
     ],
 ],
 
+'mexicali' => [
+    'name' => 'Mexicali',
+    'state' => 'Baja California',
+    'state_slug' => 'baja-california',
+    'subtitle' => 'Capital cachanilla en la frontera',
+    'icon' => '🌵',
+    'center' => [32.6245, -115.4523],
+    'zoom' => 14,
+    'attractions' => [
+        ['id'=>1,'name'=>'Catedral de Nuestra Señora de Guadalupe','lat'=>32.6504,'lng'=>-115.4683,'icon'=>'⛪','category'=>'Religioso','description'=>'Catedral principal de Mexicali con fachada art déco frente a la Plaza Cívica.','history'=>'Construida entre 1947 y 1956; sede de la Diócesis de Mexicali desde 1966.','tips'=>'Visita el atrio al atardecer cuando la luz del desierto tiñe la fachada de naranja.','hours'=>'Lun-Dom 7:00-20:00','rating'=>4.6],
+        ['id'=>2,'name'=>'La Chinesca','lat'=>32.6655,'lng'=>-115.4683,'icon'=>'🏮','category'=>'Histórico','description'=>'El barrio chino más antiguo de México, con túneles subterráneos y restaurantes centenarios.','history'=>'Fundado a inicios del siglo XX por braceros chinos que construyeron los canales del Valle de Mexicali.','tips'=>'Reserva el tour guiado a los túneles del Hotel Cecil; sólo se visitan con guía.','hours'=>'Mar-Dom 10:00-22:00','rating'=>4.5],
+        ['id'=>3,'name'=>'Bosque y Zoológico de la Ciudad','lat'=>32.6361,'lng'=>-115.4744,'icon'=>'🌳','category'=>'Naturaleza','description'=>'Pulmón verde de Mexicali con lago artificial, zoológico y áreas familiares.','history'=>'Inaugurado en 1973 sobre antiguos terrenos agrícolas para mitigar el calor del desierto.','tips'=>'Llega al amanecer en verano; las temperaturas pasan los 45°C después del mediodía.','hours'=>'Mar-Dom 9:00-17:00','rating'=>4.4],
+        ['id'=>4,'name'=>'Plaza Cívica de Mexicali','lat'=>32.6504,'lng'=>-115.4731,'icon'=>'🏛️','category'=>'Plaza','description'=>'Explanada con esculturas de héroes nacionales y sede de los poderes del estado.','history'=>'Inaugurada en 1976 como nuevo centro político de Baja California.','tips'=>'Los domingos hay tianguis cultural y conciertos al aire libre.','hours'=>'Abierto 24 h','rating'=>4.4],
+        ['id'=>5,'name'=>'Museo Sol del Niño','lat'=>32.6336,'lng'=>-115.4894,'icon'=>'🔬','category'=>'Cultura','description'=>'Museo interactivo de ciencia instalado en una antigua planta termoeléctrica.','history'=>'Abierto en 1998 dentro de la "Casa de la Energía" de la CFE de los años 50.','tips'=>'Combina la visita con el planetario contiguo; entrada combinada con descuento.','hours'=>'Mar-Dom 9:00-18:00','rating'=>4.6],
+    ],
+],
+
+'tecate' => [
+    'name' => 'Tecate',
+    'state' => 'Baja California',
+    'state_slug' => 'baja-california',
+    'subtitle' => 'Pueblo Mágico cervecero en la sierra',
+    'icon' => '🍺',
+    'center' => [32.5667, -116.6258],
+    'zoom' => 15,
+    'attractions' => [
+        ['id'=>1,'name'=>'Cervecería Tecate','lat'=>32.5709,'lng'=>-116.6300,'icon'=>'🍻','category'=>'Gastronomía','description'=>'Planta original de la icónica cerveza Tecate, con jardín y degustaciones.','history'=>'Fundada en 1944 por Alberto Aldrete aprovechando los manantiales de la sierra.','tips'=>'El "Jardín Tecate" abre los fines de semana con cerveza fría y botanas regionales.','hours'=>'Vie-Dom 11:00-19:00','rating'=>4.6],
+        ['id'=>2,'name'=>'Parque Hidalgo','lat'=>32.5703,'lng'=>-116.6275,'icon'=>'🌳','category'=>'Plaza','description'=>'Plaza principal con kiosko y aroma a pan recién horneado de las panaderías cercanas.','history'=>'Trazada al fundarse el pueblo en 1892 sobre el antiguo rancho de los Arce.','tips'=>'Compra pan tradicional en "El Mejor Pan" justo frente al parque.','hours'=>'Abierto 24 h','rating'=>4.5],
+        ['id'=>3,'name'=>'Cerro Cuchumá','lat'=>32.5550,'lng'=>-116.6403,'icon'=>'⛰️','category'=>'Naturaleza','description'=>'Montaña sagrada para los kumiai, con sendero panorámico hacia la frontera.','history'=>'Lugar ceremonial indígena por más de 4,000 años; declarado Área Natural Protegida.','tips'=>'La caminata a la cima toma 3-4 horas; lleva agua y sal para los nativos en señal de respeto.','hours'=>'Acceso 6:00-18:00','rating'=>4.7],
+        ['id'=>4,'name'=>'Rancho La Puerta','lat'=>32.5589,'lng'=>-116.6647,'icon'=>'🧘','category'=>'Bienestar','description'=>'Pionero spa-resort fundado en 1940 al pie del Cuchumá, referente mundial del bienestar.','history'=>'Fundado por Edmond y Deborah Szekely como retiro naturista; sigue en manos de la misma familia.','tips'=>'Aunque hospedarse es premium, la huerta orgánica "Tres Estrellas" abre al público los sábados.','hours'=>'Visitas Sáb 9:00-13:00','rating'=>4.9],
+        ['id'=>5,'name'=>'Panadería El Mejor Pan','lat'=>32.5705,'lng'=>-116.6271,'icon'=>'🥐','category'=>'Gastronomía','description'=>'Panadería tradicional fundada en 1969, alma gastronómica de Tecate.','history'=>'Iniciada por Jesús Plascencia con un horno de leña que sigue en uso.','tips'=>'Pide concha rellena de cajeta y un café de olla para desayunar como local.','hours'=>'Lun-Dom 5:00-21:00','rating'=>4.8],
+    ],
+],
+
+'rosarito' => [
+    'name' => 'Rosarito',
+    'state' => 'Baja California',
+    'state_slug' => 'baja-california',
+    'subtitle' => 'Playa, langosta y cine',
+    'icon' => '🦞',
+    'center' => [32.3614, -117.0556],
+    'zoom' => 14,
+    'attractions' => [
+        ['id'=>1,'name'=>'Playa de Rosarito','lat'=>32.3614,'lng'=>-117.0581,'icon'=>'🏖️','category'=>'Playa','description'=>'Playa de arena fina de más de 8 km, ideal para cabalgar y atardeceres.','history'=>'Punto de descanso desde los años 20, cuando hollywoodenses cruzaban a evadir la Ley Seca.','tips'=>'Los caballos del malecón ofrecen paseos al atardecer; regatea el precio antes de subir.','hours'=>'Abierto 24 h','rating'=>4.6],
+        ['id'=>2,'name'=>'Rosarito Beach Hotel','lat'=>32.3675,'lng'=>-117.0586,'icon'=>'🏨','category'=>'Histórico','description'=>'Hotel art déco de 1925 que lanzó al pueblo como destino de glamour.','history'=>'Fundado por Manuel P. Barbachano; visitado por Orson Welles, Mary Pickford y Vincent Price.','tips'=>'Pasa al "Salón Mexicano" para ver los murales de Matías Santoyo aunque no te hospedes.','hours'=>'Lobby abierto 24 h','rating'=>4.5],
+        ['id'=>3,'name'=>'Baja Studios (Foxploration)','lat'=>32.3525,'lng'=>-117.0617,'icon'=>'🎬','category'=>'Cine','description'=>'Estudios donde se filmaron Titanic, Master and Commander y Pearl Harbor.','history'=>'Fox los construyó en 1996 con el tanque de agua salada más grande del mundo para Titanic.','tips'=>'Los recorridos al público son esporádicos; revisa redes oficiales antes de ir.','hours'=>'Eventos especiales','rating'=>4.4],
+        ['id'=>4,'name'=>'Puerto Nuevo','lat'=>32.2436,'lng'=>-116.9856,'icon'=>'🦞','category'=>'Gastronomía','description'=>'Pueblo pesquero con más de 30 restaurantes especializados en langosta estilo Puerto Nuevo.','history'=>'Tradición iniciada en los años 50 por las esposas de pescadores que servían langosta a viajeros.','tips'=>'La langosta clásica viene con frijoles, arroz y tortillas de harina recién hechas.','hours'=>'Lun-Dom 11:00-21:00','rating'=>4.7],
+        ['id'=>5,'name'=>'Mercado de Mariscos de Rosarito','lat'=>32.3625,'lng'=>-117.0578,'icon'=>'🦐','category'=>'Gastronomía','description'=>'Mercado al aire libre con tostadas de atún, ceviches y almejas chocolatas.','history'=>'Funciona desde los años 70 frente al malecón con pescadores locales.','tips'=>'Llega antes de las 13:00 para encontrar el mariscal del día más fresco.','hours'=>'Lun-Dom 8:00-18:00','rating'=>4.5],
+    ],
+],
+
+'san-quintin' => [
+    'name' => 'San Quintín',
+    'state' => 'Baja California',
+    'state_slug' => 'baja-california',
+    'subtitle' => 'Bahía, volcanes y campos del Pacífico',
+    'icon' => '🌊',
+    'center' => [30.4825, -115.9417],
+    'zoom' => 13,
+    'attractions' => [
+        ['id'=>1,'name'=>'Bahía de San Quintín','lat'=>30.4444,'lng'=>-115.9889,'icon'=>'⛵','category'=>'Naturaleza','description'=>'Bahía protegida con ostiones, dunas y aves migratorias del Pacífico.','history'=>'Sitio Ramsar desde 2008 por su valor como humedal y zona de descanso de aves.','tips'=>'Prueba los ostiones Kumiai cosechados en la propia bahía por la cooperativa local.','hours'=>'Acceso 24 h','rating'=>4.7],
+        ['id'=>2,'name'=>'Misión Santo Domingo de la Frontera','lat'=>30.7639,'lng'=>-115.9389,'icon'=>'⛪','category'=>'Histórico','description'=>'Ruinas de adobe de una de las misiones dominicas mejor conservadas de Baja California.','history'=>'Fundada en 1775 por Manuel García y abandonada en 1839 tras epidemias.','tips'=>'Llega en 4x4 y al amanecer; el sol bajo realza las paredes de adobe.','hours'=>'Abierto 24 h','rating'=>4.5],
+        ['id'=>3,'name'=>'Volcanes de San Quintín','lat'=>30.4083,'lng'=>-115.9750,'icon'=>'🌋','category'=>'Naturaleza','description'=>'Campo volcánico de ocho conos cuaternarios sobre la costa, único en la península.','history'=>'Erupciones de hace 90,000-180,000 años formaron Picacho Vizcaíno y los islotes vecinos.','tips'=>'La subida al Cono Sudoeste toma 1.5 h; la vista alcanza la isla San Martín.','hours'=>'Acceso 6:00-19:00','rating'=>4.6],
+        ['id'=>4,'name'=>'Playa Santa María','lat'=>30.4361,'lng'=>-115.9750,'icon'=>'🏖️','category'=>'Playa','description'=>'Playa amplia de arena oscura volcánica, ideal para surfear y caminar al atardecer.','history'=>'Bautizada por los misioneros dominicos del siglo XVIII en honor a la Virgen María.','tips'=>'El oleaje es fuerte; nada solo si tienes experiencia y revisa el viento del noroeste.','hours'=>'Abierto 24 h','rating'=>4.5],
+        ['id'=>5,'name'=>'Cementerio Inglés','lat'=>30.4889,'lng'=>-115.9472,'icon'=>'🪦','category'=>'Histórico','description'=>'Pequeño cementerio con tumbas de colonos ingleses que intentaron cultivar trigo aquí.','history'=>'Fundado por la International Land Co. en 1888; el proyecto fracasó por la sequía hacia 1900.','tips'=>'Está señalizado pero sin custodia; respeta las lápidas, varias siguen siendo visitadas por descendientes.','hours'=>'Abierto 24 h','rating'=>4.3],
+    ],
+],
+
 ];
