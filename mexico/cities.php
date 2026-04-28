@@ -787,6 +787,19 @@ return [
     ],
 ],
 
+'zapopan' => [
+    'name' => 'Zapopan',
+    'state' => 'Jalisco',
+    'state_slug' => 'jalisco',
+    'subtitle' => 'Villa Maicera de la zona metropolitana',
+    'icon' => '🌽',
+    'center' => [20.7236, -103.3919],
+    'zoom' => 13,
+    'attractions' => [
+        ['id'=>1,'name'=>'Lupes BBQ Toscana','lat'=>20.729263,'lng'=>-103.433153,'icon'=>'🍖','category'=>'Gastronomía','description'=>'Restaurante de barbacoa estilo Texas en Valle Real, famoso por su brisket ahumado y costillas.','history'=>'Sucursal Toscana de Lupes BBQ, abierta para llevar el BBQ texano de bajo y lento al poniente de Zapopan.','tips'=>'Llega temprano: el brisket suele agotarse pasada la 1 pm los fines de semana.','hours'=>'Mar-Dom 13:00-21:00','rating'=>4.6],
+    ],
+],
+
 'tepic' => [
     'name' => 'Tepic',
     'state' => 'Nayarit',

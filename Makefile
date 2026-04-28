@@ -6,10 +6,16 @@ CONTAINER   ?= pepe-maps-dev
 PORT        ?= 8000
 HOST_BIND   ?= 127.0.0.1
 DOCKER      ?= docker
+COMPOSE     ?= docker compose
+DB_SERVICE  ?= db
+DB_NAME     ?= pepe_maps
+DB_USER     ?= pepe
+DB_PASS     ?= pepe
 
 .DEFAULT_GOAL := help
 
-.PHONY: help build up down restart logs shell ps serve lint clean
+.PHONY: help build up down restart logs shell ps serve lint clean \
+        db-up db-down db-shell db-seed db-reset
 
 help: ## Show this help.
 	@awk 'BEGIN {FS = ":.*##"; printf "Pepe Maps dev targets:\n\n"} \
@@ -48,3 +54,23 @@ lint: ## php -l every .php file under mexico/.
 
 clean: down ## Stop the container and remove the image.
 	@$(DOCKER) image rm $(IMAGE) >/dev/null 2>&1 || true
+
+db-up: ## Start MySQL (and the app) via docker compose.
+	$(COMPOSE) up -d
+	@echo "→ MySQL ready at $(HOST_BIND):3306, db=$(DB_NAME)"
+
+db-down: ## Stop the compose stack (preserves data volume).
+	$(COMPOSE) down
+
+db-shell: ## Open a mysql shell inside the db container.
+	$(COMPOSE) exec $(DB_SERVICE) mysql -u$(DB_USER) -p$(DB_PASS) $(DB_NAME)
+
+db-seed: ## Load mexico/cities.php into MySQL (idempotent).
+	$(COMPOSE) exec -T app php /app/db/seed.php
+
+db-reset: ## DROP + recreate the schema, then reseed.
+	$(COMPOSE) exec -T $(DB_SERVICE) mysql -uroot -proot -e \
+		"DROP DATABASE IF EXISTS $(DB_NAME); CREATE DATABASE $(DB_NAME) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
+	$(COMPOSE) exec -T $(DB_SERVICE) sh -c \
+		'mysql -uroot -proot $(DB_NAME) < /docker-entrypoint-initdb.d/01-schema.sql'
+	$(COMPOSE) exec -T app php /app/db/seed.php
