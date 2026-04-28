@@ -796,7 +796,7 @@ return [
     'center' => [20.7236, -103.3919],
     'zoom' => 13,
     'attractions' => [
-        ['id'=>1,'name'=>'Lupes BBQ Toscana','lat'=>20.729263,'lng'=>-103.433153,'icon'=>'🍖','category'=>'Gastronomía','description'=>'Restaurante de barbacoa estilo Texas en Valle Real, famoso por su brisket ahumado y costillas.','history'=>'Sucursal Toscana de Lupes BBQ, abierta para llevar el BBQ texano de bajo y lento al poniente de Zapopan.','tips'=>'Llega temprano: el brisket suele agotarse pasada la 1 pm los fines de semana.','hours'=>'Mar-Dom 13:00-21:00','rating'=>4.6],
+        ['id'=>1,'name'=>'Lupes BBQ Chapalita','lat'=>20.663293,'lng'=>-103.402732,'icon'=>'🍖','category'=>'Gastronomía','description'=>'Restaurante de barbacoa estilo Texas en Av. Tepeyac 810, Chapalita; brisket ahumado, costillas y pulled pork.','history'=>'Sucursal original de Lupes BBQ, pionera del BBQ texano de bajo y lento en la zona metropolitana de Guadalajara.','tips'=>'Llega temprano: el brisket suele agotarse pasada la 1 pm los fines de semana.','hours'=>'Mar-Dom 13:00-21:00','rating'=>4.6],
     ],
 ],
 

@@ -85,6 +85,18 @@ foreach ($cities as $c) { $totalAttractions += count($c['attractions'] ?? []); }
         color: var(--gold);
         font-size: 0.85rem;
         letter-spacing: 0.1em;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+    header a.count:hover {
+        background: rgba(201,168,76,0.12);
+        border-color: var(--gold);
+        color: var(--gold-light);
+    }
+    header a.count::after {
+        content: ' →';
+        color: var(--teal);
     }
     main {
         max-width: 1200px;
@@ -205,7 +217,9 @@ foreach ($cities as $c) { $totalAttractions += count($c['attractions'] ?? []); }
     <header>
         <h1>Pepe Maps · <span class="accent">México</span></h1>
         <p>Guías turísticas interactivas con rutas a pie</p>
-        <span class="count"><?= count($byState) ?> estados · <?= count($cities) ?> ciudades · <?= $totalAttractions ?> atracciones</span>
+        <a class="count" href="map/" title="Explorar por estado en el mapa de México">
+            <?= count($byState) ?> estados · <?= count($cities) ?> ciudades · <?= $totalAttractions ?> atracciones
+        </a>
     </header>
 
     <main>
